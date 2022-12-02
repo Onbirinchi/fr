@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto,sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    background: #E5E5E5;
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header-nav a{
+    font-size: 16px;
+    color:  #000000;
+    margin: 0 25px;
+}
+.header-title{
+
+   color:  #000000;
+    margin: 0 25px;
+}
+.header-btn{
+    font-size: 16px;
+    color: #000000;
+    background: transparent;
+    border: none;
+    margin: 0 15px;
+}
+.header-teg{
+    font-size: 16px;
+    color: #161320
+}
+#phone {
+    background: #100E14;
+    height: 917px;
+}
+.phone{
+    padding: 60px 0;
+
+}
+.phone-title{
+    font-size: 53px;
+    line-height: 73px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 15px 0;
+
+}
+
+.phone-title{
+    letter-spacing: 2.88px;
+}
+
+.phone-subtitle{
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.phone-botton{
+    width: 200px;
+    height: 56px;
+    color: #FFFFFF;
+    background: #FF4343;
+    border-radius: 8px;
+    margin: 30px 0;
+    border: none;
+}
+.phone-btn{
+display: flex;
+justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.phone-Title{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+.phone-img{
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.phone-images img{
+    position: absolute;
+    right: 323px;
+}
+#shoot{
+    background: #121118;
+    height: 720px;
+    font-family: Roboto,sans-serif;
+}
+.shoot{
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shoot-title{
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.shoot-subtitle{
+    font-size: 26px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 18px 0;
+}
+.shoot-img{
+    display: flex;
+    width: 820px;
+}
+.shoot-images img{
+    position: absolute;
+    right: 293px;
+}
+#enrich{
+    background: #121118;
+}
+.enrich-img{
+    position: absolute;
+}
+.enrich-text{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+.enrich-title{
+    font-size: 58px;
+    color: #FFFFFF;
+}
+.enrich-subtitle{
+    font-size: 27px;
+    line-height: 38px;
+    letter-spacing: 1.08px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
